@@ -1,0 +1,52 @@
+# Web-Based Learning Management System (LMS)
+
+A web-based Learning Management System developed to support student and teacher academic activities, including course management, assignments, attendance tracking, submissions, and academic performance monitoring.
+
+## Project Overview
+
+This project was developed as part of my Computer Software Engineering project.
+
+The system provides separate interfaces for students and teachers, allowing academic activities to be managed through a centralized web application.
+
+## Features
+
+### Student
+- Student registration and login
+- Student dashboard
+- Course access
+- Assignment submission
+- Attendance monitoring
+- Academic performance tracking
+- Profile management
+- Notifications
+
+### Teacher
+- Teacher authentication
+- Teacher dashboard
+- Course creation and management
+- Assignment creation
+- Student submission management
+- Attendance management
+- Grading and feedback
+- Student performance monitoring
+
+## Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript
+- **Backend:** PHP
+- **Database:** MySQL
+- **Development Environment:** XAMPP
+- **Database Management:** phpMyAdmin
+
+## System Architecture
+
+The application follows a web-based client-server architecture:
+
+```text
+User
+  ↓
+Web Interface
+  ↓
+PHP Application
+  ↓
+MySQL Database
