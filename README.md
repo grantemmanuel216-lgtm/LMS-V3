@@ -1,62 +1,35 @@
-# Web-Based Learning Management System (LMS)
+# MyIntershipMatchingPlatform
 
-A web-based Learning Management System developed to support student and teacher academic activities, including course management, assignments, attendance tracking, submissions, and academic performance monitoring.
+This is a site im making using php and css, made for students looking for internship opportunites in nigeria, where they can input thier skills, which the matching algorithm 
+would be used to match thier skills with what the companies need by percentage.
 
-## Project Overview
+### Features:
+- Students create profiles
+- Companies post internship roles
+- System automatically matches both sides
 
-This project was developed as part of my Computer Software Engineering project.
+### Target Users:
+- Students – Find internships.
+- Companies – Find and recruit interns.
+- Admin – Monitors the platform. 
 
-The system provides separate interfaces for students and teachers, allowing academic activities to be managed through a centralized web application.
+### Core Features:
+- User login and authentication
+- Student profile creation
+- Internship posting by companies
+- Automated matching recommendations
+- Application tracking system
 
-## Features
+### System Architecture:
+- Frontend → Backend Server → Database → Matching Engine
+- Frontend: HTML, CSS, JavaScript
+- Backend:Larvel 
+- Database: SQLite
 
-### Student
-- Student registration and login
-- Student dashboard
-- Course access
-- Assignment submission
-- Attendance monitoring
-- Academic performance tracking
-- Profile management
-- Notifications
+### Plans for this project big time:
+- Full email feedback functionality
+- AI-powered recommendations
+- Mobile app version
+- University integration
+- Employer verification system
 
-### Teacher
-- Teacher authentication
-- Teacher dashboard
-- Course creation and management
-- Assignment creation
-- Student submission management
-- Attendance management
-- Grading and feedback
-- Student performance monitoring
-
-## Technologies Used
-
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** PHP
-- **Database:** MySQL
-- **Development Environment:** XAMPP
-- **Database Management:** phpMyAdmin
-
-## System Architecture
-
-The application follows a web-based client-server architecture:
-
-User
-  ↓
-Web Interface
-  ↓
-PHP Application
-  ↓
-MySQL Database
-
-Security
-
-## The system includes:
-
-Session-based authentication
-Role-based access control
-Password hashing
-Input validation
-Prepared SQL statements
-Controlled file uploads
